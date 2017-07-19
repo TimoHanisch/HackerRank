@@ -1,4 +1,4 @@
-package Warmup.CompareTheTriplets
+package Algorithms.Warmup.CompareTheTriplets
 
 /**
  * Created on 18.07.2017.

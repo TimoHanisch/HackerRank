@@ -1,4 +1,4 @@
-package Warmup.PlusMinus
+package Algorithms.Warmup.PlusMinus
 
 /**
  * Created on 18.07.2017.

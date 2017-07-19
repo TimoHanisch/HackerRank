@@ -1,4 +1,4 @@
-package Warmup.DiagonalDifference
+package Algorithms.Warmup.DiagonalDifference
 
 /**
  * Created on 18.07.2017.

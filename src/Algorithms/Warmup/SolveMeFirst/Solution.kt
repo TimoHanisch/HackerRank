@@ -1,4 +1,4 @@
-package Warmup.SolveMeFirst
+package Algorithms.Warmup.SolveMeFirst
 
 /**
  * Created on 18.07.2017.

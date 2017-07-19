@@ -1,4 +1,4 @@
-package Warmup.AVeryBigSum
+package Algorithms.Warmup.SimpleArraySum
 
 /**
  * Created on 18.07.2017.
@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     val numCount = sc.nextLine().toInt()
     val array = sc.nextLine()
             .split(delimiters = " ", limit = numCount)
-            .map { it.toLong() }
+            .map { it.toInt() }
             .sum()
     println(array)
 }

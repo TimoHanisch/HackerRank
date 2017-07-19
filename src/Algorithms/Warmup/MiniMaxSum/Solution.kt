@@ -1,4 +1,4 @@
-package Warmup.MiniMaxSum
+package Algorithms.Warmup.MiniMaxSum
 
 /**
  * Created on 18.07.2017.

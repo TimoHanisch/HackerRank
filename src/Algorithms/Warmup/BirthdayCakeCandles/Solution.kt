@@ -1,4 +1,4 @@
-package Warmup.BirthdayCakeCandles
+package Algorithms.Warmup.BirthdayCakeCandles
 
 /**
  * Created on 18.07.2017.
