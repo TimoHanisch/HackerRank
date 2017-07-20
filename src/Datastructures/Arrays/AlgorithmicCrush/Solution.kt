@@ -5,19 +5,26 @@ import java.util.*
 /**
  * Created on 19.07.2017.
  *
- * TODO: Performance!
- *
  * @author Timo Hanisch
  */
 fun main(args: Array<String>) {
     val sc = Scanner(System.`in`)
     val (n, m) = sc.nextLine().split(" ").map { it.toInt() }
-    val array = LongArray(n, { _ -> 0 })
+    val array = LongArray(n + 1, { 0 })
     repeat(m) {
         val (a, b, k) = sc.nextLine().split(" ").map { it.toInt() }
-        ((a - 1)..(b - 1)).forEach { i ->
-            array[i] = array[i] + k
+        array[a] = array[a] + k
+        if (b + 1 <= n) {
+            array[b + 1] = array[b + 1] - k
         }
     }
-    println(array.max())
+    var tmpMax = 0L
+    var max = 0L
+    array.forEach {
+        tmpMax += it
+        if (tmpMax > max) {
+            max = tmpMax
+        }
+    }
+    println(max)
 }
